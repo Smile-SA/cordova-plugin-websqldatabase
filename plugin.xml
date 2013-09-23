@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="org.smile.websqldatabase.wpdb"
+        version="0.0.1">
+
+    <name>WebSqlDatabase</name>
+    <description>WebSqlDatabase implementation for Windows Phone</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,websqldatabase</keywords>
+
+    <!-- wp7 -->
+    <platform name="wp7">
+        <js-module src="www/wpOpenDatabase.js" name="wpOpenDatabase">
+            <clobbers target="openDatabase" />
+        </js-module>
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="WebDatabase">
+                <param name="wp-package" value="WebDatabase"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/wp/Newtonsoft.Json.dll" />
+        <source-file src="src/wp/Community.CsharpSqlite.WP.Smile.dll" />
+        <source-file src="src/wp/WebDatabase.cs" />
+    </platform>
+
+    <!-- wp8 -->
+    <platform name="wp8">
+        <js-module src="www/wpOpenDatabase.js" name="wpOpenDatabase">
+            <clobbers target="openDatabase" />
+        </js-module>
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="WebDatabase">
+                <param name="wp-package" value="WebDatabase"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/wp/Newtonsoft.Json.dll" />
+        <source-file src="src/wp/Community.CsharpSqlite.WP.Smile.dll" />
+        <source-file src="src/wp/WebDatabase.cs" />
+    </platform>
+</plugin>
