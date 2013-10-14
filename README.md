@@ -1,4 +1,3 @@
-# cordova-plugin-websqldatabase
 Cordova plugin enabling WebSqlDatabase on WP7 & WP8.
 
 This plugin is also available at http://plugins.cordova.io/#/org.smile.websqldatabase.wpdb
