@@ -1,4 +1,4 @@
-This is a Cordova 3 plugin (using the new plugin management system) that enables WebSqlDatabase on WP7 & WP8.
+This is a Cordova 3 plugin (using the new plugin management system) that enables WebSqlDatabase on WP7.5 & WP8.
 
 ## Install
 Using the Cordova 3 Command-line Interface:
