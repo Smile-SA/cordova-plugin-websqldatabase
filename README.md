@@ -16,5 +16,10 @@ Use the WebSqlDatabase API as if it where native on Windows Phone, the plugin do
 ## Example
 A prototype including this plugin is available at https://github.com/Smile-SA/cordova-plugin-websqldatabase-proto
 
+## Compatibility
+
+   * WP 7.5
+   * WP 8
+
 ## External library
 This plugin uses a fork (https://github.com/Smile-SA/Csharp-SQLite-WP) of the [original "Sqlite Client for Windows Phone"](http://sqlitewindowsphone.codeplex.com/) library
