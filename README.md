@@ -4,7 +4,7 @@ This is a Cordova 3 plugin (using the new plugin management system) that enables
 Using the Cordova 3 Command-line Interface:
 
 ```sh
-cordova plugin add org.smile.websqldatabase.wpdb
+cordova plugin add cordova-plugin-websqldatabase
 ```
 
 If you are not using the Cordova Command-line Interface, follow [Using Plugman to Manage Plugins](http://cordova.apache.org/docs/en/edge/plugin_ref_plugman.md.html).

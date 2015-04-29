@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-websqldatabase",
+  "version": "0.0.1",
+  "description": "WebSqlDatabase implementation for Windows Phone",
+  "cordova": {
+    "id": "cordova-plugin-websqldatabase",
+    "platforms": [
+      "wp7",
+      "wp8"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smile-SA/cordova-plugin-websqldatabase.git"
+  },
+  "keywords": [
+    "cordova",
+    "websqldatabase",
+    "ecosystem:cordova",
+    "cordova-wp7",
+    "cordova-wp8"
+  ],
+  "author": "smile",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Smile-SA/cordova-plugin-websqldatabase/issues"
+  },
+  "homepage": "https://github.com/Smile-SA/cordova-plugin-websqldatabase#readme"
+}
